@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./ms_marco_eval.py", line 194, in <module>
+    main()
+  File "./ms_marco_eval.py", line 187, in main
+    MAX_BLEU_ORDER)
+  File "./ms_marco_eval.py", line 134, in compute_metrics_from_files
+    F1 = 2 *((precision*recall)/(precision+recall))
+ZeroDivisionError: float division by zero
